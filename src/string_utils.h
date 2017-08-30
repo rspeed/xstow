@@ -28,6 +28,9 @@
 #  define STRSTREAM
 #endif  
 
+typedef std::vector<std::string> vec_string;
+std::ostream& operator<<( std::ostream& out, const vec_string &v );
+
 std::string toupper( std::string s );
 std::string strip( const std::string& str, const std::string& what = " \t\n\0" );
 bool is_int( const std::string &s );

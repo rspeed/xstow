@@ -260,11 +260,9 @@ namespace Leo
 
     if( start == std::string::npos ||
 	end == std::string::npos )
-      s = "";
-    else
-      s = s.substr( start+1, start-end -1 );
+      return s2x<A>("");
 
-    return s2x<A>(s);
+    return s2x<A>(s.substr( start+1, start-end -1 ));
   }
 } // namespace Leo
 
