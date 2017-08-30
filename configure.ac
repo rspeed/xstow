@@ -1,4 +1,4 @@
-AC_INIT(xstow, 1.0.2)
+AC_INIT(xstow, 1.0.3)
 AC_CONFIG_SRCDIR([src/main.cpp])
 AM_CONFIG_HEADER(config.h)
 AM_INIT_AUTOMAKE

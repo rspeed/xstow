@@ -1,3 +1,10 @@
+2017-08-30 Rob Speed <speed.rob@gmail.com>
+
+	v1.0.3
+
+	* Fixes compiling with clang.
+
+
 2014-01-02 Martin Oberzalkek <kingleo@gmx.at>
 
 	* ref.h added patch by 	Robin Lee <robinlee.sysu@gmail.com> fixed compilation bug with gcc 4.8
